@@ -37,11 +37,11 @@ secure-note-app/
     ```bash
    npm install
 
-3. การตั้งค่าไฟล์ความลับ: สร้างไฟล์ชื่อ .env ในโฟลเดอร์ backend (ห้ามอัปโหลดไฟล์นี้ขึ้น GitHub เด็ดขาด) และเพิ่มตัวแปรระบบดังนี้:   
-    Code snippet
-    PORT=3000
-    SECRET_TOKEN=my_frontend_secret_123
-    POCKETHOST_TOKEN=20260301eink
+3. **การตั้งค่าไฟล์ความลับ:** สร้างไฟล์ชื่อ `.env` ในโฟลเดอร์ `backend` (ห้ามอัปโหลดไฟล์นี้ขึ้น GitHub เด็ดขาด) และเพิ่มตัวแปรระบบดังนี้:
+   ```env
+   PORT=3000
+   SECRET_TOKEN=my_frontend_secret_123
+   POCKETHOST_TOKEN=20260301eink
 
 4. สั่งรันเซิร์ฟเวอร์หลังบ้าน:
     ```bash
